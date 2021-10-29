@@ -1,0 +1,134 @@
+{"Pokemon" : [
+
+  {
+    "id": 1,
+    "pokemonName": "ピカチュウ",
+    "attribute": 3,
+    "gender": "オス",
+    "level": 20,
+    "hp": 100,
+    "skillId": [ 2, 3, 13, 21 ],
+    "maxHp": 100
+  },
+  {
+    "id": 2,
+    "pokemonName": "イーブイ",
+    "attribute": 0,
+    "gender": "メス",
+    "level": 45,
+    "hp": 100,
+    "skillId": [ 1, 2, 22 ],
+    "maxHp": 100
+  },
+  {
+    "id": 3,
+    "pokemonName":"ポッチャマ",
+    "attribute": 2,
+    "gender": "オス",
+    "level": 14,
+    "hp": 100,
+    "skillId": [ 1, 12, 16 ],
+    "maxHp": 100
+  },
+  {
+    "id": 4,
+    "pokemonName": "ナエトル",
+    "attribute": 4,
+    "gender": "オス",
+    "level": 30,
+    "hp": 100,
+    "skillId": [ 7, 9, 11, 25 ],
+    "maxHp": 100
+  },
+  {
+    "id": 5,
+    "pokemonName":"ヒコザル",
+    "attribute": 1,
+    "gender":"オス",
+    "level":9,
+    "hp":100,
+    "skillId":[ 10, 14, 18, 24 ],
+    "maxHp": 100
+  },
+  {
+    "id": 6,
+    "pokemonName":"コイキング",
+    "attribute": 2,
+    "gender":"メス",
+    "level":13,
+    "hp":100,
+    "skillId":[ 1, 9, 15 ],
+    "maxHp": 100
+  },
+  {
+    "id": 7,
+    "pokemonName":"スボミー",
+    "attribute": 4,
+    "gender":"メス",
+    "level":11,
+    "hp":100,
+    "skillId":[ 7, 8, 9 ],
+    "maxHp": 100
+  },
+  {
+    "id": 8,
+    "pokemonName":"タテトプス",
+    "attribute": 5,
+    "gender":"オス",
+    "level":15,
+    "hp":100,
+    "skillId":[ 11, 13, 23 ],
+    "maxHp": 100
+  },
+  {
+    "id": 9,
+    "pokemonName":"パチリス",
+    "attribute": 0,
+    "gender":"メス",
+    "level":40,
+    "hp":100,
+    "skillId":[ 2, 3 ],
+    "maxHp": 100
+  },
+  {
+    "id": 10,
+    "pokemonName":"ミミロル",
+    "attribute": 0,
+    "gender":"メス",
+    "level":10,
+    "hp":100,
+    "skillId":[ 1, 14, 15 ],
+    "maxHp": 100
+  },
+  {
+    "id": 11,
+    "pokemonName":"ポニータ",
+    "attribute": 1,
+    "gender":"オス",
+    "level":14,
+    "hp":100,
+    "skillId":[ 8, 10, 18 ],
+    "maxHp": 100
+  },
+  {
+    "id": 12,
+    "pokemonName":"マナフィ",
+    "attribute": 2,
+    "gender":"オス",
+    "level":20,
+    "hp":100,
+    "skillId":[ 1, 5, 6, 16 ],
+    "maxHp": 100
+  },
+  {
+    "id": 13,
+    "pokemonName":"ヤブクロン",
+    "attribute": 7,
+    "gender":"オス",
+    "level":20,
+    "hp":100,
+    "skillId":[ 1, 19, 20 ],
+    "maxHp": 100
+  }
+]
+}

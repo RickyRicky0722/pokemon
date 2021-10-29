@@ -1,0 +1,229 @@
+{
+  "Skill": [
+    {
+      "id": 1,
+      "name": "たいあたり",
+      "damage": 10,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 2,
+      "name": "でんこうせっか",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "じゅうまんボルト",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 3,
+      "status": 2
+    },
+    {
+      "id": 4,
+      "name": "スピードスター",
+      "damage": 40,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 5,
+      "name": "みずでっぽう",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 2,
+      "status": 0
+    },
+    {
+      "id": 6,
+      "name": "バブルこうせん",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 2,
+      "status": 0
+    },
+    {
+      "id": 7,
+      "name": "はっぱカッター",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 4,
+      "status": 0
+    },
+    {
+      "id": 8,
+      "name": "やつあたり",
+      "damage": 40,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 9,
+      "name": "じこさいせい",
+      "damage": 0,
+      "recovery": 10,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 10,
+      "name": "ひのこ",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 1,
+      "status": 0
+    },
+    {
+      "id": 11,
+      "name": "ふみつけ",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 12,
+      "name": "アクアリング",
+      "damage": 0,
+      "recovery": 30,
+      "hit": 80,
+      "type": 2,
+      "status": 0
+    },
+    {
+      "id": 13,
+      "name": "アイアンテール",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 6,
+      "status": 0
+    },
+    {
+      "id": 14,
+      "name": "ほのうのパンチ",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 1,
+      "status": 4
+    },
+    {
+      "id": 15,
+      "name": "はねる",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 16,
+      "name": "なみのり",
+      "damage": 30,
+      "recovery": 0,
+      "hit": 80,
+      "type": 2,
+      "status": 0
+    },
+    {
+      "id": 17,
+      "name": "ひっかく",
+      "damage": 10,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 0
+    },
+    {
+      "id": 18,
+      "name": "かえんぐるま",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 1,
+      "status": 4
+    },
+    {
+      "id": 19,
+      "name": "どくばり",
+      "damage": 0,
+      "recovery": 0,
+      "hit": 80,
+      "type": 7,
+      "status": 1
+    },
+    {
+      "id": 20,
+      "name": "ヘドロばくだん",
+      "damage": 10,
+      "recovery": 0,
+      "hit": 80,
+      "type": 7,
+      "status": 1
+    },
+    {
+      "id": 21,
+      "name": "でんじは",
+      "damage": 0,
+      "recovery": 0,
+      "hit": 80,
+      "type": 3,
+      "status": 2
+    },
+    {
+      "id": 22,
+      "name": "いばる",
+      "damage": 0,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 3
+    },
+    {
+      "id": 23,
+      "name": "ロッククライム",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 0,
+      "status": 3
+    },
+    {
+      "id": 24,
+      "name": "おにび",
+      "damage": 0,
+      "recovery": 0,
+      "hit": 80,
+      "type": 1,
+      "status": 4
+    },
+    {
+      "id": 25,
+      "name": "ねむりごな",
+      "damage": 0,
+      "recovery": 0,
+      "hit": 80,
+      "type": 4,
+      "status": 5
+    }
+  ]
+}
