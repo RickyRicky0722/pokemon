@@ -23,7 +23,7 @@ public class Util {
         System.out.println("ファイルが存在しません。" + filePath);
         return  null;
       }
-       // ファイルの存在確認fin.
+      // ファイルの存在確認fin.
       JsonNode readTree = mapper.readTree(new File(filePath));
       // readTreeにJsonファイルを取り込み
       root = readTree.get(rootProperty);

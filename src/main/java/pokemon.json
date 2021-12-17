@@ -73,11 +73,11 @@
   {
     "id": 8,
     "pokemonName":"タテトプス",
-    "attribute": 5,
+    "attribute": 6,
     "gender":"オス",
     "level":15,
     "hp":100,
-    "skillId":[ 11, 13, 23 ],
+    "skillId":[ 11, 13, 23, 26 ],
     "maxHp": 100
   },
   {
@@ -128,6 +128,53 @@
     "level":20,
     "hp":100,
     "skillId":[ 1, 19, 20 ],
+    "maxHp": 100
+  },
+  {
+    "id": 14,
+    "pokemonName":"ヒトカゲ",
+    "attribute": 1,
+    "gender":"オス",
+    "level":14,
+    "hp":100,
+    "skillId":[ 10, 17 ,24 ],
+    "maxHp": 100
+  },{
+    "id": 15,
+    "pokemonName": "メリープ",
+    "attribute": 3,
+    "gender": "オス",
+    "level": 20,
+    "hp": 100,
+    "skillId": [ 1, 3, 21 ],
+    "maxHp": 100
+  },
+  {
+    "id": 16,
+    "pokemonName":"ドガース",
+    "attribute": 7,
+    "gender":"オス",
+    "level":20,
+    "hp":100,
+    "skillId":[ 1, 19, 20 ],
+    "maxHp": 100
+  },{
+    "id": 17,
+    "pokemonName":"ウソッキー",
+    "attribute": 5,
+    "gender":"オス",
+    "level":20,
+    "hp":100,
+    "skillId":[ 1, 7, 27 ],
+    "maxHp": 100
+  },{
+    "id": 18,
+    "pokemonName":"ダンゴロ",
+    "attribute": 5,
+    "gender":"オス",
+    "level":20,
+    "hp":100,
+    "skillId":[ 1, 7, 27 ],
     "maxHp": 100
   }
 ]

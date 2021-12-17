@@ -174,7 +174,7 @@
     {
       "id": 20,
       "name": "ヘドロばくだん",
-      "damage": 10,
+      "damage": 20,
       "recovery": 0,
       "hit": 80,
       "type": 7,
@@ -224,6 +224,22 @@
       "hit": 80,
       "type": 4,
       "status": 5
+    },{
+      "id": 26,
+      "name": "アイアンヘッド",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 6,
+      "status": 0
+    },{
+      "id": 27,
+      "name": "いわおとし",
+      "damage": 20,
+      "recovery": 0,
+      "hit": 80,
+      "type": 5,
+      "status": 0
     }
   ]
 }

@@ -138,7 +138,8 @@ public class Trainer {
     Map<Integer, Pokemon> pokemonInstance = new HashMap<>();
     Map<Integer, Skill> pokemonSkills = Skill.createSkillInstance();
 
-    //TODO:pokemonSkillsの空判定追加
+    //Jsonファイルが読み込めなかった場合、return
+    if (pokemonSkills.size() == 0) return;
 
     for (JsonNode jsonNode : root) {
       // ポケモンインスタンス生成

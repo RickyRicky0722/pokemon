@@ -1,0 +1,16 @@
+Battle.java
+ Battle
+Attribute.java
+ Attribute
+Main.java
+ Main
+Skill.java
+ Skill
+Util.java
+ Util
+Trainer.java
+ Trainer
+Status.java
+ Status
+Pokemon.java
+ Pokemon

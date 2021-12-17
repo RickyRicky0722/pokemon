@@ -41,7 +41,7 @@ public class Status {
         if (skill.getStatus() == FINE || defender.getHp() == 0) return;
         //毒技で鋼タイプに攻撃しても効果はないので判定しない
         if (skill.getStatus() == POISON && (defender.getAttribute() == Attribute.TYPE_STEEL || defender.getAttribute() == Attribute.TYPE_POISON) ||
-        skill.getStatus() == BURN && defender.getAttribute() == Attribute.TYPE_FLAME) return;
+                skill.getStatus() == BURN && defender.getAttribute() == Attribute.TYPE_FLAME) return;
 
         String text = "";
 
@@ -83,7 +83,7 @@ public class Status {
     public void restoreRandomStatus (Pokemon pokemon)
     {
         //自然回復しない状態異常あるいは状態異常になったターンはターン経過による状態異常回復はしない
-        if ((pokemon.getStatus() != BURN && pokemon.getStatus() != SLEEP)) return;
+        if (pokemon.getStatus() != BURN && pokemon.getStatus() != SLEEP) return;
         Random rand = new Random();
         //状態異常になって次のターンは回復しない
         if(pokemon.getStatusCount() >= 1 && rand.nextInt(3) <= pokemon.getStatusCount() - 1)

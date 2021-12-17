@@ -99,6 +99,7 @@ public class Battle {
       //逃げるを選択したかどうかの判定
       if(getSkill1 == 0) {
         runAway(pokemon1, trainer2); //相手の勝利
+        return;
       }
       //HPの計算
       calcHp(pokemon1, pokemon2, getSkill1);
@@ -107,12 +108,6 @@ public class Battle {
 
       //ポケモンのHPが0かどうか
       if (pokemon2.getHp() <= 0) setPokemon2(selectBattlePokemon(trainer2));
-
-      //ポケモンの現在の体力、状態異常を表示
-      //System.out.println(trainer1.getName() + "の" + pokemon1.getPokemonName() + "の残りHP：" + pokemon1.getHp());
-      //System.out.println(trainer2.getName() + "の" + pokemon2.getPokemonName() + "の残りHP：" + pokemon2.getHp());
-      //Status.nowCondition(pokemon1);
-      //Status.nowCondition(pokemon2);
 
       //2人目のターン
       System.out.println(pokemon2.getPokemonName() + "はどうする？");
@@ -233,11 +228,11 @@ public class Battle {
 
       try {
         skill = scanner.nextInt();
-      if(!(skillMap.containsKey(skill) || skill == 0)) {
-        System.out.println("せんたくしのなかからえらんでください\nid:");
-      }else {
-        judgeLoop = false;
-      }
+        if(!(skillMap.containsKey(skill) || skill == 0)) {
+          System.out.println("せんたくしのなかからえらんでください\nid:");
+        }else {
+          judgeLoop = false;
+        }
       }catch (InputMismatchException e) {
         System.out.print("数字でえらんでください\nid:");
         scanner.next();
@@ -257,8 +252,6 @@ public class Battle {
 
     sleep4Second();
     System.out.println("しょうしゃ" + winner.getName() + "!");
-
-    System.exit(0);
   }
 
   /**
@@ -326,26 +319,26 @@ public class Battle {
       //最低でも5ダメージは与えるようにする
       if (thisTimeDamage < 5) thisTimeDamage = 5;
 
-        //ダメージ計算
-        afterHp = defender.getHp() - thisTimeDamage;
-        defender.setHp(afterHp);
+      //ダメージ計算
+      afterHp = defender.getHp() - thisTimeDamage;
+      defender.setHp(afterHp);
 
-        System.out.println(attacker.getPokemonName() + "の攻撃！！ " + skill.getSkillName());
-        if (damageRate == 0)
-        {
-          System.out.println(defender.getPokemonName() + "には効果はないようだ・・・");
-          return;
-        }
-        else if (damageRate > 1)
-        {
-          System.out.println("効果は抜群だ！！！");
-        }
-        else if (damageRate < 1)
-        {
-          System.out.println("効果は今一つだ・・・");
-        }
-        System.out.println(defender.getPokemonName() + "に" + thisTimeDamage + "ダメージ！！");
-        if (defender.getHp() <= 0) defender.setHp(0); //マイナスHPは存在しないため
+      System.out.println(attacker.getPokemonName() + "の攻撃！！ " + skill.getSkillName());
+      if (damageRate == 0)
+      {
+        System.out.println(defender.getPokemonName() + "には効果はないようだ・・・");
+        return;
+      }
+      else if (damageRate > 1)
+      {
+        System.out.println("効果は抜群だ！！！");
+      }
+      else if (damageRate < 1)
+      {
+        System.out.println("効果は今一つだ・・・");
+      }
+      System.out.println(defender.getPokemonName() + "に" + thisTimeDamage + "ダメージ！！");
+      if (defender.getHp() <= 0) defender.setHp(0); //マイナスHPは存在しないため
 
       //状態異常を相手ポケモンに付与する
       status.judgeStatus(skill, defender);
@@ -383,9 +376,9 @@ public class Battle {
    * @return 命中可否
    */
   public static boolean isHit(int hitRate){
-      Random random = new Random();
-      int randomValue = random.nextInt(101);
-      return randomValue <= hitRate;
+    Random random = new Random();
+    int randomValue = random.nextInt(101);
+    return randomValue <= hitRate;
   }
 
   /**

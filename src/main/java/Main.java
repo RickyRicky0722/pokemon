@@ -31,5 +31,5 @@ public class Main {
     //システム終了
     System.exit(0);
 
- }
+  }
 }
